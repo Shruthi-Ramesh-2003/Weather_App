@@ -1,0 +1,214 @@
+/* *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;}
+
+.box{
+    width:50%;
+    height: 500px;
+    background-color: aliceblue;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+#btn{
+    border-radius: 2px;
+    background-color:#c7ac92;
+    border:1px solid black;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.card{
+    margin-top:10px;
+}
+#input{
+    border:2px solid #540b0e;
+    color:#1d1e18
+}
+
+#box #card i{
+    color:#023047;
+} */
+
+
+
+
+/* 
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.box {
+    width: 50%;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #ccc; 
+    
+}
+
+#btn {
+    border-radius: 5px;
+    background-color: #c7ac92;
+    border: 1px solid black;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    padding: 10px 15px; 
+    cursor: pointer;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+#input {
+    border: 2px solid #540b0e;
+    color: #1d1e18;
+    padding: 8px;
+}
+
+.card i {
+    color: #023047;
+}
+.weather-info{
+    font-size:1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    color:black;
+    
+}
+    #city-name{
+        text-align: center;
+        color:black;
+        font-family:cursive;
+    }
+h1{
+    background-color: white;
+    font-size:1.5rem;
+    color:black;
+    margin-top:10px;
+}
+
+#city-name,#country{
+    top:0px;
+    left:0px;
+}
+
+
+
+
+ */
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./cloudy.jpg') no-repeat center center/cover;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 400px;
+    border:#333;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #540b0e;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#btn {
+    width: 85%;
+    padding: 10px;
+    background: #c7ac92;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn:hover {
+    background: #a88a6e;
+}
+
+.weather-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+    border:#333
+}
+
+.weather-info p {
+    flex: 1;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    border:#a88a6e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1rem;
+}
+
+#city-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1d3557;
+}
+
+#error-message {
+    color: red;
+    font-size: 0.9rem;
+}
